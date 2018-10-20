@@ -1,10 +1,15 @@
 # expressReact
 This is Node.js (Express) server with front-end (React) and Database (MongoDb via Mongoose).
-# expressReact stracture
+# expressReact structure  
+
+1. (10) this app is based on Node.js;  
+2. (1) this app uses Express server;  
+3. (2) this app uses **nconf** for config functionality; (expressReact/config) 
+4. (5) the app uses module stracture;  
+5. (11) as template engine we use React (front end);  
+6. (6) the app has content processing module (expressReact/static_content_processing.js);  
+7. (4) this app doesn't have multythreading but it has asynchronous function via async module (used in expressReact/createDb.js and expressReact/Db/getPlaces.js module);  
 # Get started
-
-
-
 
 1. This app uses MongoDb, so you need to insatall MongoDb;  
 2. This app uses Node.js, so you need to install it as well;  
