@@ -9,6 +9,7 @@ This is Node.js (Express) server with front-end (React) and Database (MongoDb vi
 5. (11) as template engine we use React (front end);  
 6. (6) the app has content processing module (expressReact/static_content_processing.js);  
 7. (4) this app doesn't have multythreading but it has asynchronous function via async module (used in expressReact/createDb.js and expressReact/Db/getPlaces.js module);  
+8. (3) expressReact uses **winston** module for logging purpose (expressReact/libs/log.js) 
 # Get started
 
 1. This app uses MongoDb, so you need to insatall MongoDb;  
