@@ -17,7 +17,7 @@ This is **Node.js (Express)** server with front-end (**React**) and Database (**
 
 1. This app uses MongoDb, so you need to insatall MongoDb;  
 2. This app uses Node.js, so you need to install it as well;  
-3. Download this project using **git clone https://github.com/YaroslavGrushko/expressReact.git** command in your cmd (for Windows). Or simply download project zip from download button and unzip it;  
+3. Download this project using **git clone https://github.com/YaroslavGrushko/expressReact.git .** command in your cmd (for Windows). Or simply download project zip from download button and unzip it;  
 4. Go to root directory of expressReact project via cmd (for Windows) and type **npm install** (npm will install all dependencies for back-end (node.js {Express}) part);  
 5. Go to client directory and also type **npm install** (npm will install all dependencies for front-end (React) part);  
 6. Now let's create database, to do this go to root directory of expressReact and type **npm createDb** in cmd;
